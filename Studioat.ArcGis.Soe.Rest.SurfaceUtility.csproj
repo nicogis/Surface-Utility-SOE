@@ -109,9 +109,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="SurfaceUtility.snk" />
   </ItemGroup>
- <PropertyGroup>
+  <PropertyGroup>
     <ZipFileExtension>soe</ZipFileExtension>
     <AddInTargetProduct>Server</AddInTargetProduct>
     <AddInTargetVersion>10.4</AddInTargetVersion>
