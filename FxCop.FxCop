@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="1.36" Name="My FxCop Project">
+ <ProjectOptions>
+  <SharedProject>True</SharedProject>
+  <Stylesheet Apply="False">c:\program files (x86)\microsoft fxcop 1.36\Xml\FxCopReport.xsl</Stylesheet>
+  <SaveMessages>
+   <Project Status="Active, Excluded" NewOnly="False" />
+   <Report Status="Active" NewOnly="False" />
+  </SaveMessages>
+  <ProjectFile Compress="True" DefaultTargetCheck="True" DefaultRuleCheck="True" SaveByRuleGroup="" Deterministic="True" />
+  <EnableMultithreadedLoad>True</EnableMultithreadedLoad>
+  <EnableMultithreadedAnalysis>True</EnableMultithreadedAnalysis>
+  <SourceLookup>True</SourceLookup>
+  <AnalysisExceptionsThreshold>10</AnalysisExceptionsThreshold>
+  <RuleExceptionsThreshold>1</RuleExceptionsThreshold>
+  <Spelling Locale="en-US" />
+  <OverrideRuleVisibilities>False</OverrideRuleVisibilities>
+  <CustomDictionaries SearchFxCopDir="True" SearchUserProfile="True" SearchProjectDir="True" />
+  <SearchGlobalAssemblyCache>False</SearchGlobalAssemblyCache>
+  <DeadlockDetectionTimeout>120</DeadlockDetectionTimeout>
+  <IgnoreGeneratedCode>False</IgnoreGeneratedCode>
+ </ProjectOptions>
+ <Targets>
+  <AssemblyReferenceDirectories>
+   <Directory>$(ProjectDir)/../../../../../../../Program Files (x86)/ArcGIS/DeveloperKit10.1/bin/</Directory>
+   <Directory>$(ProjectDir)/../../../../../../../Program Files (x86)/ArcGIS/DeveloperKit10.1/DotNet/</Directory>
+  </AssemblyReferenceDirectories>
+  <Target Name="$(ProjectDir)/bin/Debug/Studioat.ArcGis.Soe.Rest.ElevationsUtility.dll" Analyze="True" AnalyzeAllChildren="True" />
+ </Targets>
+ <Rules>
+  <RuleFiles>
+   <RuleFile Name="$(FxCopDir)\Rules\DesignRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\GlobalizationRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\InteroperabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\MobilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\NamingRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PerformanceRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PortabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\SecurityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\UsageRules.dll" Enabled="True" AllRulesEnabled="True" />
+  </RuleFiles>
+  <Groups />
+  <Settings />
+ </Rules>
+ <FxCopReport Version="1.36">
+  <Namespaces>
+   <Namespace Name="Studioat.ArcGis.Soe.Rest">
+    <Messages>
+     <Message Id="Gis" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+      <Issue Name="Namespace">
+       <Item>Gis</Item>
+       <Item>Studioat.ArcGis.Soe.Rest</Item>
+      </Issue>
+      <Notes>
+       <User Name="Administrator">
+        <Note Id="0" />
+       </User>
+      </Notes>
+     </Message>
+     <Message Id="Soe" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+      <Issue Name="Namespace">
+       <Item>Soe</Item>
+       <Item>Studioat.ArcGis.Soe.Rest</Item>
+      </Issue>
+      <Notes>
+       <User Name="Administrator">
+        <Note Id="0" />
+       </User>
+      </Notes>
+     </Message>
+     <Message Id="Studioat" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+      <Issue Name="Namespace">
+       <Item>Studioat</Item>
+       <Item>Studioat.ArcGis.Soe.Rest</Item>
+      </Issue>
+      <Notes>
+       <User Name="Administrator">
+        <Note Id="0" />
+       </User>
+      </Notes>
+     </Message>
+    </Messages>
+   </Namespace>
+  </Namespaces>
+  <Targets>
+   <Target Name="$(ProjectDir)/bin/Debug/Studioat.ArcGis.Soe.Rest.ElevationsUtility.dll">
+    <Modules>
+     <Module Name="studioat.arcgis.soe.rest.elevationsutility.dll">
+      <Messages>
+       <Message Id="Gis" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+        <Issue Name="Assembly">
+         <Item>Gis</Item>
+         <Item>'Studioat.ArcGis.Soe.Rest.ElevationsUtility.dll'</Item>
+        </Issue>
+        <Notes>
+         <User Name="Administrator">
+          <Note Id="0" />
+         </User>
+        </Notes>
+       </Message>
+       <Message Id="Soe" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+        <Issue Name="Assembly">
+         <Item>Soe</Item>
+         <Item>'Studioat.ArcGis.Soe.Rest.ElevationsUtility.dll'</Item>
+        </Issue>
+        <Notes>
+         <User Name="Administrator">
+          <Note Id="0" />
+         </User>
+        </Notes>
+       </Message>
+       <Message Id="Studioat" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Excluded" Created="2013-02-05 17:15:29Z">
+        <Issue Name="Assembly">
+         <Item>Studioat</Item>
+         <Item>'Studioat.ArcGis.Soe.Rest.ElevationsUtility.dll'</Item>
+        </Issue>
+        <Notes>
+         <User Name="Administrator">
+          <Note Id="0" />
+         </User>
+        </Notes>
+       </Message>
+      </Messages>
+     </Module>
+    </Modules>
+   </Target>
+  </Targets>
+  <Notes>
+   <User Name="Administrator">
+    <Note Id="0" Modified="2013-02-05 17:16:02Z">Ok</Note>
+   </User>
+  </Notes>
+  <Rules>
+   <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+    <Resolution Name="Assembly">Correct the spelling of '{0}' in assembly name {1}.</Resolution>
+    <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   </Rule>
+  </Rules>
+ </FxCopReport>
+</FxCopProject>
