@@ -21,12 +21,12 @@ This solution (developed in c#) creates a SOE Rest in arcgis server 10.4 for the
 
 # Installation:
 
-1. upload file Studioat.ArcGis.Soe.Rest.SurfaceUtility.soe (see http://resources.arcgis.com/en/help/main/10.1/0154/0154000004sm000000.htm)
+1. upload file Studioat.ArcGis.Soe.Rest.SurfaceUtility.soe (see https://resources.arcgis.com/en/help/main/10.1/0154/0154000004sm000000.htm)
 
 2. create a service map and enable in capabilities the extension. In your mxd you must have at least with at least one elevation layer; the elevation layer must be a single band Raster Layer or Mosaic Layer. For requirements see details in help point 3).
 
 3. from service directory you can see the help
-    http://hostname/instanceags/rest/services/yourservice/MapServer/exts/SurfaceUtility/Help
+    https://hostname/instanceags/rest/services/yourservice/MapServer/exts/SurfaceUtility/Help
 
 4. enabled/disabled capabilies of soe because default aren't enabled all capabilities of soe.
 
@@ -38,8 +38,8 @@ I also have added a sample WPF (ArcGIS Runtime SDK for .NET v100.0.0) for call 
 
 The solutions are checked 100% with stylecop and fxcop.
 
-[Live](http://sit.sistemigis.it/samples/elevations)
+[Live](https://sit.sistemigis.it/samples/elevations)
 
-[Help live](http://sit.sistemigis.it/sit/rest/services/Demo/Surface/MapServer/exts/SurfaceUtility/Help)
+[Help live](https://sit.sistemigis.it/sit/rest/services/Demo/Surface/MapServer/exts/SurfaceUtility/Help)
 
-[Blog](http://nicogis.blogspot.it/2013/02/alziamo-il-livello-3d-surface.html)
+[Blog](https://nicogis.blogspot.it/2013/02/alziamo-il-livello-3d-surface.html)
